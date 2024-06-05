@@ -1,0 +1,6 @@
+Recipes_FR = {
+    Recipe_Make_Training_Target = "Dessiner une cible de tir",
+    Recipe_Make_Training_Mobile = "Fabriquer une cible sur pied",
+    Recipe_Make_Training_Dummy = "Fabriquer un mannequin d'entrainement",
+    Recipe_Make_Training_Can = "Fabriquer une cible d'entrainement avec des conserves vides",
+}

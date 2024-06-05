@@ -1,0 +1,78 @@
+module Base
+{
+    item TrainingTarget
+    {
+        Type = Moveable,
+        Icon	=	TrainingTarget,
+        DisplayCategory = Furniture,
+        Weight	=	0.2,
+        DisplayName		= TrainingTarget,
+        WorldObjectSprite = batman_targets_01_0,
+        WorldStaticModel = TrainingTargetModel
+    }
+
+    item TrainingMobile
+    {
+        Type = Moveable,
+        Icon	=	TrainingMobile,
+        DisplayCategory = Furniture,
+        Weight	=	2,
+        DisplayName		= TrainingMobile,
+        WorldObjectSprite = cible_mobile_0,
+    }
+
+    item TrainingDummy {
+        Type = Moveable,
+        Icon	=	TrainingDummy,
+        DisplayCategory = Furniture,
+        Weight	=	10,
+        DisplayName		= TrainingDummy,
+        WorldObjectSprite = batman_targets_dummy_training_0
+    }
+
+   item TrainingCan {
+        Type = Moveable,
+        Icon	=	TrainingCan,
+        DisplayCategory = Furniture,
+        Weight	=	10,
+        DisplayName		= TrainingCan,
+        WorldObjectSprite = batman_targets_can_0_0
+    }
+
+    recipe Make Training Mobile {
+        TrainingTarget=1,
+        Plank=3,
+        Time:100.0,
+        Result:TrainingMobile,
+        Category:Carpentry,
+        OnGiveXP:Recipe.OnGiveXP.WoodWork5
+    }
+
+    recipe Make Training Target
+    {
+        keep Pencil/Crayons,
+        SheetPaper2=4,
+        Nails=2,
+        Time:200.0,
+        Result:TrainingTarget,
+        Category:Carpentry
+    }
+
+    recipe Make Training Dummy {
+        Plank=3,
+        Sheet=1,
+        Time:300.0,
+        Result:TrainingDummy,
+        Category:Carpentry,
+        OnGiveXP:Recipe.OnGiveXP.WoodWork5
+    }
+
+    recipe Make Training Can {
+        Plank=3,
+        Nails=2,
+        Time:300.0,
+        Result:TrainingCan,
+        Category:Carpentry,
+        OnGiveXP:Recipe.OnGiveXP.WoodWork5
+    }
+}

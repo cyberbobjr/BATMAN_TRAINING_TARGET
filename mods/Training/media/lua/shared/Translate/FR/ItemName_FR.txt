@@ -1,0 +1,6 @@
+ItemName_FR = {
+    ItemName_Base.TrainingTarget = "Cible de tir",
+    ItemName_Base.TrainingMobile = "Cible sur pied",
+    ItemName_Base.TrainingDummy = "Mannequin d'entrainement",
+    ItemName_Base.TrainingCan = "Cible d'entraînement avec conserve vide",
+}

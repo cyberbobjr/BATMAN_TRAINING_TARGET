@@ -1,0 +1,9 @@
+ContextMenu_FR = {
+    ContextMenu_This_is_too_close = "Je suis trop près de la cible",
+    ContextMenu_Ive_hit_something = "J'ai touché",
+    ContextMenu_Ive_missed = "Raté !",
+    ContextMenu_I_cant_put_this = "Je ne peux mettre cela",
+    ContextMenu_I_cant_put_more_than_12_can = "Je ne peux pas mettre plus de 12 boites de conserves vides",
+    ContextMenu_Target_is_damaged = "La cible est endommagée, je devrais la remplacer",
+    ContextMenu_Target_must_be_refilled = "Je dois remettre des boites de conserves vides",
+}

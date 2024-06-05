@@ -1,0 +1,6 @@
+name=Training Target
+id=BATMAN_Training_Target
+description=This mod will allow you to train on shooting targets and increase your aiming skills.
+poster=poster.png
+pack=training_target
+tiledef=training_target 1712
